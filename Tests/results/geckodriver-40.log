@@ -1,0 +1,18 @@
+1739107469975	geckodriver	INFO	Listening on 127.0.0.1:53857
+1739107473039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53858" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cks_1\\AppData\\Local\\Temp\\rust_mozprofile0VfQ4F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739107473325	Marionette	INFO	Marionette enabled
+1739107473420	Marionette	INFO	Listening on port 53866
+WebDriver BiDi listening on ws://127.0.0.1:53858
+Read port: 53866
+1739107473555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53858/devtools/browser/e84a3679-9e55-4349-9ff9-2bd6287f533b
+JavaScript warning: https://www.amazon.in/, line 3560: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/, line 3505: Script terminated by timeout at:
+l@https://www.amazon.in/:3505:262
+
+1739107492256	Marionette	INFO	Stopped listening on port 53866
+Dynamically enable window occlusion 1

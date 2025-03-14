@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2025-02-08T18:39:03.136540" rpa="false" schemaversion="5">
+<suite id="s1" name="demoblazebasicTest" source="C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\demoblazebasicTest.robot">
+<test id="s1-t1" name="TC to check the valid details in demoblaze application" line="13">
+<kw name="commonFunctionality.opening bemoblaze browser" type="SETUP">
+<msg time="2025-02-08T18:39:03.345335" level="FAIL">No keyword with name 'commonFunctionality.opening bemoblaze browser' found.</msg>
+<status status="FAIL" start="2025-02-08T18:39:03.345335" elapsed="0.000000">No keyword with name 'commonFunctionality.opening bemoblaze browser' found.</status>
+</kw>
+<kw name="commonFunctionality.closing the browsers" type="TEARDOWN">
+<msg time="2025-02-08T18:39:03.345335" level="FAIL">No keyword with name 'commonFunctionality.closing the browsers' found.</msg>
+<status status="FAIL" start="2025-02-08T18:39:03.345335" elapsed="0.000000">No keyword with name 'commonFunctionality.closing the browsers' found.</status>
+</kw>
+<doc>validation of login details from RF</doc>
+<status status="FAIL" start="2025-02-08T18:39:03.341261" elapsed="0.004074">Setup failed:
+No keyword with name 'commonFunctionality.opening bemoblaze browser' found.
+
+Also teardown failed:
+No keyword with name 'commonFunctionality.closing the browsers' found.</status>
+</test>
+<status status="FAIL" start="2025-02-08T18:39:03.136540" elapsed="0.208795"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="demoblazebasicTest">demoblazebasicTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-08T18:39:03.331232" level="ERROR">Error in file 'C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\demoblazebasicTest.robot' on line 3: Resource file '..ResourcescommonFunctionality.robot' does not exist.</msg>
+<msg time="2025-02-08T18:39:03.341261" level="ERROR">Error in file 'C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\demoblazebasicTest.robot' on line 4: Resource file '..ResourcesdemoblazeKeywords.robot' does not exist.</msg>
+</errors>
+</robot>

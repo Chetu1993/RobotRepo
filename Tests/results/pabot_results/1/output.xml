@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.10.5 on win32)" generated="2025-02-10T22:20:11.285460" rpa="false" schemaversion="5">
+<suite id="s1" name="mouseActions" source="C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\mouseActions.robot">
+<test id="s1-t1" name="TC2 to test the mouse actions using RF" line="31">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-10T22:20:11.504582" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-10T22:20:11.504582" elapsed="5.645805"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-10T22:20:19.152369" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-10T22:20:17.151384" elapsed="2.000985"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-10T22:20:19.152369" elapsed="0.030881"/>
+</kw>
+<kw name="Mouse Over" owner="SeleniumLibrary">
+<msg time="2025-02-10T22:20:19.184255" level="INFO">Simulating Mouse Over on element '//a[text()='About us']'.</msg>
+<arg>//a[text()='About us']</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="PASS" start="2025-02-10T22:20:19.183250" elapsed="0.289652"/>
+</kw>
+<kw name="Mouse Down On Link" owner="SeleniumLibrary">
+<arg>//a[text()='Cart']</arg>
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-10T22:20:19.472902" elapsed="0.307161"/>
+</kw>
+<kw name="Mouse Down On Image" owner="SeleniumLibrary">
+<arg>//*[@alt='First slide']</arg>
+<doc>Simulates a mouse down event on an image identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-10T22:20:19.780063" elapsed="0.292265"/>
+</kw>
+<kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
+<msg time="2025-02-10T22:20:20.073325" level="INFO">${gettingimplicitTime} = 0 seconds</msg>
+<var>${gettingimplicitTime}</var>
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2025-02-10T22:20:20.072328" elapsed="0.000997"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-02-10T22:20:20.073325" elapsed="2.149184"/>
+</kw>
+<doc>testing the different mouse actions using RF</doc>
+<status status="PASS" start="2025-02-10T22:20:11.504582" elapsed="10.717927"/>
+</test>
+<status status="PASS" start="2025-02-10T22:20:11.301079" elapsed="10.921430"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="mouseActions" id="s1" pass="1" fail="0" skip="0">mouseActions</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

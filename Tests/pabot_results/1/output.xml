@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-06T17:48:34.613325" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Rahulshetty" source="C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\rahulshetty.robot">
+<test id="s1-s1-t1" name="TC to test the ecommerce application" line="18">
+<kw name="opening the rahulshettylogin application" owner="commonFunctionality" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:34.848135" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
+<arg>${url.e}</arg>
+<arg>${browser}[0]</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-06T17:48:34.847332" elapsed="3.154922"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-06T17:48:40.003652" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-06T17:48:38.002707" elapsed="2.001607"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-03-06T17:48:40.004980" elapsed="0.103271"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:48:34.846598" elapsed="5.261860"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>2s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-03-06T17:48:40.108829" elapsed="0.000509"/>
+</kw>
+<kw name="enter the username and password" owner="rahulshettyLoginKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:40.110515" level="INFO">Typing text 'rahulshettyacademy' into text field '//*[@id='username']'.</msg>
+<arg>${username}</arg>
+<arg>${enteruser}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:48:40.109975" elapsed="6.168763"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:46.281232" level="INFO">Typing text 'learning' into text field '//*[@id='password']'.</msg>
+<arg>${password}</arg>
+<arg>${enterpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:48:46.279538" elapsed="6.115766"/>
+</kw>
+<arg>rahulshettyacademy</arg>
+<arg>learning</arg>
+<status status="PASS" start="2025-03-06T17:48:40.109595" elapsed="12.286026"/>
+</kw>
+<kw name="click on userradio button" owner="rahulshettyLoginKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:52.396643" level="INFO">Clicking element '(//*[@class='checkmark'])[2]'.</msg>
+<arg>${userradio}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:48:52.396318" elapsed="4.080544"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:48:52.395890" elapsed="4.081164"/>
+</kw>
+<kw name="click on ok button" owner="rahulshettyLoginKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:56.477748" level="INFO">Clicking element '//*[text()='Okay']'.</msg>
+<arg>${okaybtn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:48:56.477534" elapsed="4.067998"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:48:56.477242" elapsed="4.068638"/>
+</kw>
+<kw name="select the option" owner="rahulshettyLoginKeywords">
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:00.547988" level="INFO">Selecting options from selection list '//select[@class='form-control']' by label Consultant.</msg>
+<arg>${selectoption}</arg>
+<arg>${inputval}</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2025-03-06T17:49:00.547334" elapsed="16.164291"/>
+</kw>
+<arg>Consultant</arg>
+<status status="PASS" start="2025-03-06T17:49:00.546489" elapsed="16.165274"/>
+</kw>
+<kw name="click on checkbox" owner="rahulshettyLoginKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:16.712524" level="INFO">Clicking element 'xpath://*[@type='checkbox']'.</msg>
+<arg>${termsandconditions}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:49:16.712287" elapsed="4.104438"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:49:16.711947" elapsed="4.105052"/>
+</kw>
+<kw name="validate the page with one of the webelement" owner="rahulshettyLoginKeywords">
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:22.843614" level="INFO">Current page contains element 'xpath://*[@class='text-center text-white']'.</msg>
+<arg>${pageval}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2025-03-06T17:49:20.818146" elapsed="2.025604"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:49:20.817369" elapsed="2.026517"/>
+</kw>
+<kw name="click on the siginbutton" owner="rahulshettyLoginKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:22.844833" level="INFO">Clicking element '//*[@name='signin']'.</msg>
+<arg>${signinele}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:49:22.844532" elapsed="4.092149"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:49:22.844120" elapsed="4.092678"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:29.917801" level="INFO">@{elements} = [ ]</msg>
+<var>@{elements}</var>
+<arg>${prodcol}</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:49:26.936929" elapsed="2.980939"/>
+</kw>
+<for flavor="IN">
+<iter>
+<if>
+<branch type="IF" condition="'&quot;${element} == ${variables}[0]&quot;'">
+<kw name="click on the product cart button" owner="rahulshettyLoginKeywords">
+<status status="NOT RUN" start="2025-03-06T17:49:29.918837" elapsed="0.000120"/>
+</kw>
+<break>
+<status status="NOT RUN" start="2025-03-06T17:49:29.919041" elapsed="0.000102"/>
+</break>
+<status status="NOT RUN" start="2025-03-06T17:49:29.918576" elapsed="0.000639"/>
+</branch>
+<status status="NOT RUN" start="2025-03-06T17:49:29.918542" elapsed="0.000737"/>
+</if>
+<var name="${element}"/>
+<status status="NOT RUN" start="2025-03-06T17:49:29.918397" elapsed="0.000915"/>
+</iter>
+<var>${element}</var>
+<value>@{elements}</value>
+<status status="NOT RUN" start="2025-03-06T17:49:29.918026" elapsed="0.001353"/>
+</for>
+<kw name="click on main cart button" owner="rahulshettyLoginKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:29.920302" level="INFO">Clicking element '//*[@class='nav-link btn btn-primary']'.</msg>
+<arg>${carticon}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:49:29.919992" elapsed="4.109865"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:49:29.919582" elapsed="4.110411"/>
+</kw>
+<kw name="click on checkout button" owner="rahulshettyLoginKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:34.030786" level="INFO">Clicking element '//*[@class='btn btn-success']'.</msg>
+<arg>${checkoutbtn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-06T17:49:34.030536" elapsed="4.088584"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:49:34.030176" elapsed="4.089073"/>
+</kw>
+<kw name="enter the country name" owner="rahulshettyLoginKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:49:38.120044" level="INFO">Typing text 'ind' into text field '//*[@id='country']'.</msg>
+<msg time="2025-03-06T17:49:42.237531" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A8FFC]
+	(No symbol) [0x00007FF7AB5EF69F]
+	(No symbol) [0x00007FF7AB6277B2]
+	(No symbol) [0x00007FF7AB62210E]
+	(No symbol) [0x00007FF7AB6211B9]
+	(No symbol) [0x00007FF7AB5755E5]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB5741FF]
+	GetHandleVerifier [0x00007FF7ABB925D8+4042392]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+</msg>
+<msg time="2025-03-06T17:49:42.238112" level="FAIL">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.36)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A91CA]
+	(No symbol) [0x00007FF7AB594FB5]
+	(No symbol) [0x00007FF7AB5B9CD4]
+	(No symbol) [0x00007FF7AB62F78F]
+	(No symbol) [0x00007FF7AB64F975]
+	(No symbol) [0x00007FF7AB6276C3]
+	(No symbol) [0x00007FF7AB5F0490]
+	(No symbol) [0x00007FF7AB5F1743]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB725674]
+	(No symbol) [0x00007FF7AB725816]
+	(No symbol) [0x00007FF7AB714D89]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+</msg>
+<arg>${entercountry}</arg>
+<arg>${country}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2025-03-06T17:49:38.119742" elapsed="4.124916">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.36)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A91CA]
+	(No symbol) [0x00007FF7AB594FB5]
+	(No symbol) [0x00007FF7AB5B9CD4]
+	(No symbol) [0x00007FF7AB62F78F]
+	(No symbol) [0x00007FF7AB64F975]
+	(No symbol) [0x00007FF7AB6276C3]
+	(No symbol) [0x00007FF7AB5F0490]
+	(No symbol) [0x00007FF7AB5F1743]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB725674]
+	(No symbol) [0x00007FF7AB725816]
+	(No symbol) [0x00007FF7AB714D89]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+</status>
+</kw>
+<arg>ind</arg>
+<status status="FAIL" start="2025-03-06T17:49:38.119417" elapsed="4.125721">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.36)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A91CA]
+	(No symbol) [0x00007FF7AB594FB5]
+	(No symbol) [0x00007FF7AB5B9CD4]
+	(No symbol) [0x00007FF7AB62F78F]
+	(No symbol) [0x00007FF7AB64F975]
+	(No symbol) [0x00007FF7AB6276C3]
+	(No symbol) [0x00007FF7AB5F0490]
+	(No symbol) [0x00007FF7AB5F1743]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB725674]
+	(No symbol) [0x00007FF7AB725816]
+	(No symbol) [0x00007FF7AB714D89]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+</status>
+</kw>
+<kw name="wait for until list of countries is visible" owner="rahulshettyLoginKeywords">
+<status status="NOT RUN" start="2025-03-06T17:49:42.245388" elapsed="0.000133"/>
+</kw>
+<kw name="click on the country in list of countries list" owner="rahulshettyLoginKeywords">
+<status status="NOT RUN" start="2025-03-06T17:49:42.245691" elapsed="0.000161"/>
+</kw>
+<kw name="click on country terms and conditions" owner="rahulshettyLoginKeywords">
+<status status="NOT RUN" start="2025-03-06T17:49:42.246012" elapsed="0.000108"/>
+</kw>
+<kw name="click on purchase button" owner="rahulshettyLoginKeywords">
+<status status="NOT RUN" start="2025-03-06T17:49:42.246272" elapsed="0.000101"/>
+</kw>
+<kw name="validation of final purchase message element" owner="rahulshettyLoginKeywords">
+<status status="NOT RUN" start="2025-03-06T17:49:42.246563" elapsed="0.000109"/>
+</kw>
+<kw name="after purchase validation page should contain the matching text" owner="rahulshettyLoginKeywords">
+<arg>next</arg>
+<status status="NOT RUN" start="2025-03-06T17:49:42.246855" elapsed="0.000124"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-03-06T17:49:42.247164" elapsed="0.000132"/>
+</kw>
+<kw name="closing the browsers" owner="commonFunctionality" type="TEARDOWN">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-06T17:49:45.248596" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-06T17:49:42.248101" elapsed="3.000664"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-03-06T17:49:45.249037" elapsed="4.186786"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:49:42.247682" elapsed="7.188391"/>
+</kw>
+<doc>Testing application with RF</doc>
+<status status="FAIL" start="2025-03-06T17:48:34.845884" elapsed="74.590340">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.36)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A91CA]
+	(No symbol) [0x00007FF7AB594FB5]
+	(No symbol) [0x00007FF7AB5B9CD4]
+	(No symbol) [0x00007FF7AB62F78F]
+	(No symbol) [0x00007FF7AB64F975]
+	(No symbol) [0x00007FF7AB6276C3]
+	(No symbol) [0x00007FF7AB5F0490]
+	(No symbol) [0x00007FF7AB5F1743]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB725674]
+	(No symbol) [0x00007FF7AB725816]
+	(No symbol) [0x00007FF7AB714D89]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+</status>
+</test>
+<status status="FAIL" start="2025-03-06T17:48:34.641694" elapsed="74.803739"/>
+</suite>
+<status status="FAIL" start="2025-03-06T17:48:34.628761" elapsed="74.817300"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="Rahulshetty" id="s1-s1" pass="0" fail="1" skip="0">Suites.Rahulshetty</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-06T17:49:42.237531" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A8FFC]
+	(No symbol) [0x00007FF7AB5EF69F]
+	(No symbol) [0x00007FF7AB6277B2]
+	(No symbol) [0x00007FF7AB62210E]
+	(No symbol) [0x00007FF7AB6211B9]
+	(No symbol) [0x00007FF7AB5755E5]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB5741FF]
+	GetHandleVerifier [0x00007FF7ABB925D8+4042392]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+</msg>
+</errors>
+</robot>

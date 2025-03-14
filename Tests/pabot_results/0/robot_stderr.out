@@ -1,0 +1,1 @@
+[ WARN ] The geckodriver version (0.35.0) detected in PATH at C:\Users\cks_1\AppData\Local\Programs\Python\Python313\Scripts\geckodriver.exe might not be compatible with the detected firefox version (136.0.0.2295); currently, geckodriver 0.36.0 is recommended for firefox 136.*, so it is advised to delete the driver in PATH and retry

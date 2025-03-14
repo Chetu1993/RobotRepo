@@ -1,0 +1,41 @@
+1739107645893	geckodriver	INFO	Listening on 127.0.0.1:54326
+1739107648964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cks_1\\AppData\\Local\\Temp\\rust_mozprofileymP90U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739107649261	Marionette	INFO	Marionette enabled
+1739107649359	Marionette	INFO	Listening on port 54336
+Read port: 54336
+WebDriver BiDi listening on ws://127.0.0.1:54327
+1739107649419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54327/devtools/browser/495958e4-a283-43ea-8e2e-c1653e3b10af
+JavaScript warning: https://www.amazon.in/, line 3497: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/A1wNI7voRnL.js, line 1: Script terminated by timeout at:
+notifyNestedSubs@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:1:7038
+S@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:1:8600
+/MKj/T/<@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:1:8489
+hs@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:78132
+bu@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:101132
+KqkS/t.unstable_runWithPriority@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:31:3470
+Wi@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:45576
+yu@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:97558
+au@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:87883
+yl30/Yi/<@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:45867
+KqkS/t.unstable_runWithPriority@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:31:3470
+Wi@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:45576
+Yi@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:45814
+Ki@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:45747
+ou@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:59:87976
+notify@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:1:6444
+notifyNestedSubs@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:1:7040
+i@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:1:6874
+v@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:7:77154
+MPJ9/Ke/l/</<@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:31:28064
+ANjH/c/<@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:7:79261
+E4kw/</ft/this.onOutOfView@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:15:66330
+outOfView@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:15:67272
+E4kw/</at/this.handleVisibilityChange@https://m.media-amazon.com/images/I/A1wNI7voRnL.js:15:60806
+
+1739107736981	Marionette	INFO	Stopped listening on port 54336
+Dynamically enable window occlusion 1

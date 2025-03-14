@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-06T17:48:34.621767" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Parallel" source="C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\parallel.robot">
+<test id="s1-s1-t1" name="TC to test the google application" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:34.908440" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>${urls.a}</arg>
+<arg>${browsers}[0]</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-06T17:48:34.907692" elapsed="4.468813"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-06T17:48:41.377720" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-06T17:48:39.377019" elapsed="2.000824"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-06T17:48:41.378032" elapsed="2.230445"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:48:34.906344" elapsed="8.703394"/>
+</test>
+<test id="s1-s1-t2" name="TC to test the automation application" line="15">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:43.628129" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${urls.b}</arg>
+<arg>${browsers}[0]</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-06T17:48:43.623135" elapsed="6.559264"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-06T17:48:52.183406" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-06T17:48:50.182583" elapsed="2.000945"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-06T17:48:52.183719" elapsed="2.091134"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:48:43.611988" elapsed="10.663073"/>
+</test>
+<test id="s1-s1-t3" name="TC to test the demoblaze application" line="19">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-06T17:48:54.276390" level="INFO">Opening browser 'firefox' to base url 'https://demoblaze.com'.</msg>
+<msg time="2025-03-06T17:48:54.614867" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\cks_1\AppData\Local\Programs\Python\Python313\Scripts\geckodriver.exe might not be compatible with the detected firefox version (136.0.0.2295); currently, geckodriver 0.36.0 is recommended for firefox 136.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${urls.c}</arg>
+<arg>${browsers}[1]</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-06T17:48:54.275826" elapsed="7.942330"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-06T17:49:04.218863" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-06T17:49:02.218322" elapsed="2.000805"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-06T17:49:04.219564" elapsed="3.034227"/>
+</kw>
+<status status="PASS" start="2025-03-06T17:48:54.275458" elapsed="12.978519"/>
+</test>
+<status status="PASS" start="2025-03-06T17:48:34.649911" elapsed="32.604509"/>
+</suite>
+<status status="PASS" start="2025-03-06T17:48:34.637014" elapsed="32.617983"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="3" fail="0" skip="0">Suites</stat>
+<stat name="Parallel" id="s1-s1" pass="3" fail="0" skip="0">Suites.Parallel</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-06T17:48:54.614867" level="WARN">The geckodriver version (0.35.0) detected in PATH at C:\Users\cks_1\AppData\Local\Programs\Python\Python313\Scripts\geckodriver.exe might not be compatible with the detected firefox version (136.0.0.2295); currently, geckodriver 0.36.0 is recommended for firefox 136.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

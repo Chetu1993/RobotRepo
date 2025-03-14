@@ -1,0 +1,52 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Rahulshetty                                                            
+==============================================================================
+TC to test the ecommerce application :: Testing application with RF     
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\rahulshetty.robot:18
+    T:  TC to test the ecommerce application    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\rahulshetty.robot:58
+      enter the country name    ind
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Resources\rahulshettyLoginKeywords.robot:52
+      Input Text    ${entercountry}    ${country}
+      |  ${entercountry} = //*[@id='country'] (str)
+      |  ${country} = ind (str)
+______________________________________________________________________________
+| FAIL |
+InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.36)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AB7BDF85+26693]
+	(No symbol) [0x00007FF7AB71EAD0]
+	(No symbol) [0x00007FF7AB5A91CA]
+	(No symbol) [0x00007FF7AB594FB5]
+	(No symbol) [0x00007FF7AB5B9CD4]
+	(No symbol) [0x00007FF7AB62F78F]
+	(No symbol) [0x00007FF7AB64F975]
+	(No symbol) [0x00007FF7AB6276C3]
+	(No symbol) [0x00007FF7AB5F0490]
+	(No symbol) [0x00007FF7AB5F1743]
+	GetHandleVerifier [0x00007FF7ABB1436D+3525677]
+	GetHandleVerifier [0x00007FF7ABB27F3B+3606523]
+	GetHandleVerifier [0x00007FF7ABB1CEE3+3561379]
+	GetHandleVerifier [0x00007FF7AB887C0A+853194]
+	(No symbol) [0x00007FF7AB72990F]
+	(No symbol) [0x00007FF7AB725674]
+	(No symbol) [0x00007FF7AB725816]
+	(No symbol) [0x00007FF7AB714D89]
+	BaseThreadInitThunk [0x00007FFEA2EC259D+29]
+	RtlUserThreadStart [0x00007FFEA39AAF38+40]
+------------------------------------------------------------------------------
+Suites.Rahulshetty                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\cks_1\AquaProjects\RobotFrameworkPractice\Tests\pabot_results\1\output.xml
